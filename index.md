@@ -6,5 +6,5 @@ layout: default
 
 # Blog
 [Post1](/posts/post1.md)
-
 [Post2](/posts/post2.md)
+[Post3](/posts/post3.md)
