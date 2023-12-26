@@ -15,16 +15,12 @@
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-    <header class="page-header" role="banner">
-      {% if site.github.is_project_page %}      
+    <header class="page-header">     
         <a href="{{ '/index' | relative_url }}" class="btn">Home</a>
         <a href="{{ '/about' | relative_url }}" class="btn">About</a>
         <a href="{{ '/contact' | relative_url }}" class="btn">Contact</a>
-      {% endif %}
     </header>
 
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
     <main id="content" class="main-content" role="main">
       {{ content }}
 
